@@ -10,15 +10,15 @@ body {
     left: 0;
     width: 100%;
     display: flex;
-    flex-flow: row nowrap;
+    justify-content: flex-start;
 }
 #navbar a {
-    display: block;
     color: #ffffff;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 1.2rem;
+    border: solid red;
 }
 
 #navbar a:hover {
@@ -28,12 +28,12 @@ body {
 
 .main {
     padding: 16px;
-    margin-top: 128px;
+    margin-top: 54px;
     height: 1500px;
 
 }
  #mainlogo {
-    width: 128px;
+    width: 54px;
     transition: 0.2s;
 }
 /* @media screen and (max-width: 480px) {
