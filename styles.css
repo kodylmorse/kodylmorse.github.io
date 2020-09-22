@@ -42,18 +42,11 @@ body{
 
 }
  #mainlogo {
-    width: 54px;
+    width: auto;
     transition: 0.2s;
 }
-/* @media screen and (max-width: 480px) {
-    #mainlogo {
-        width: 10vw;
-        float: right;
-        transition: 0.4s;
+@media screen and (max-width: 480px) {
+    #navbar {
+
     }
-    .main {
-        padding: 16px;
-        margin-top: 128px;
-        height: 1500px;
-    } */
 }
