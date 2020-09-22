@@ -1,3 +1,50 @@
-body {
-    background-color: slategrey;
+body {  
+
+}
+
+#navbar {
+    /* overflow: hidden; */
+    background-color: rgb(0, 0, 0);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+}
+#navbar a {
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+#navbar a:hover {
+     background: white;
+     color: black;
+}
+
+.main {
+    padding: 16px;
+    margin-top: 128px;
+    height: 1500px;
+
+}
+ #mainlogo {
+    width: 128px;
+    transition: 0.2s;
+}
+/* @media screen and (max-width: 480px) {
+    #mainlogo {
+        width: 10vw;
+        float: right;
+        transition: 0.4s;
+    }
+    .main {
+        padding: 16px;
+        margin-top: 128px;
+        height: 1500px;
+    } */
 }
