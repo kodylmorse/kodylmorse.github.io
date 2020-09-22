@@ -49,4 +49,8 @@ body{
     #navbar a {
         font-size: 2rem;
     }
+    #mainlogo {
+        display: none;
+    }
+
 }
