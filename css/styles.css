@@ -1,9 +1,6 @@
 body {
     background-color: black;
     height: 1500px;
-
-}
-body a, article, p{
     color: white;
 }
 .mainlogo {
@@ -38,6 +35,7 @@ body a, article, p{
     z-index: 1;
     padding: 0 2rem;
     margin: 0 -2rem;
+    color: white;
 }
 /* .navbar a:hover {
     border-left: 1px solid #ffffff;
