@@ -22,10 +22,12 @@ body a, article, p{
 .navbar {
     background-color: black;
     padding: 0;
+    padding-bottom: 0.5rem;
     margin: auto;
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-evenly;
+    border-bottom: 2px solid white;
 }
 .navbar a {
     border-left: 1px solid #ff5100;
@@ -37,13 +39,14 @@ body a, article, p{
     padding: 0 2rem;
     margin: 0 -2rem;
 }
-.navbar a:hover {
-    border-left: 2px solid #ffffff;
+/* .navbar a:hover {
+    border-left: 1px solid #ffffff;
     border-bottom: 1px solid #ffffff;
     border-right: 1px solid #ffffff;
     color: #ff5100;
-}
+} */
 .main {
     background-color:black;
     width: 100%;
+    padding-top: 0.5rem;
 }
