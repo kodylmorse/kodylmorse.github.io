@@ -10,12 +10,7 @@ body {
 }
 .wrapper {
     background-color: #ff5100;
-    padding: 0;
-    position: relative;
-}
-#flexwrap {
-    display: flex;
-    flex-flow: row nowrap;
+    width: 100vw;
 }
 .navbar {
     background-color: black;
@@ -26,6 +21,7 @@ body {
     flex-flow: row nowrap;
     justify-content: space-evenly;
     border-bottom: 2px solid white;
+
 }
 .navbar a {
     border-left: 1px solid #ff5100;
@@ -37,6 +33,7 @@ body {
     padding: 0 2rem;
     margin: 0 -2rem;
     color: white;
+    text-align: center;
 }
 /* .navbar a:hover {
     border-left: 1px solid #ffffff;
