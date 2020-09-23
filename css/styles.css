@@ -1,4 +1,28 @@
-
-    }
-
+body {
+    background-color: black;
+    height: 1500px;
+    font-family: ;
+}
+body a, article, p{
+    color: white;
+}
+.mainlogo {
+    padding-left: 30%;
+}
+.wrapper {
+    background-color: #ff5100;
+    padding: 0;
+}
+#flexwrap {
+    display: flex;
+    flex-flow: row nowrap;
+}
+.navbar {
+    background-color: black;
+    padding: 1rem 0;
+}
+.main {
+    background-color:black;
+    /* color: white; */
+    width: 100%;
 }

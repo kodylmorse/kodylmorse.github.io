@@ -30,14 +30,11 @@
 <defs>
     <style>
       .cls-1 {
-        font-size: 128px;
-        text-anchor: middle;
-        font-family: "Fujita Ray";
-        text-transform: uppercase;
+        fill-rule: evenodd;
       }
     </style>
   </defs>
   <g id="Artboard_1" data-name="Artboard 1">
-    <text id="KL" class="cls-1" transform="translate(64.359 114.997) scale(1.287 1.156)">KL</text>
+    <path id="KL" class="cls-1" d="M31.007,39.772V22.862l-15.288-11.2V49.238ZM19.5,52.273H53.7V103.8L69.469,116.8V43.312H55.388l16.5-8.671-23.576-.072ZM91.194,11.661L77.918,22.718v94.376l29.047-28.038-15.771.217V11.661Z"/>
   </g>
 </svg>
